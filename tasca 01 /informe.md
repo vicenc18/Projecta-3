@@ -10,6 +10,17 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 ## Introducció i Justificació
 
 Les contrasenyes febles o reutilitzades són un risc greu per a l’empresa, ja que faciliten atacs com:
