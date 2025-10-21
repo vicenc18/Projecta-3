@@ -14,7 +14,7 @@
 - Escritorio  
 - Móvil  
 - Interfaz web
-## Pas 1 registre i instalacio 
+## 1 registre i instalacio 
 ## Com crear un compte a Bitwarden
 
 1. Ves a: [https://bitwarden.com](https://bitwarden.com)
@@ -25,3 +25,6 @@
 6. Revista el tu correu electronic
 7. Berifiqueu el coru que hos a enviat el Bitwarden
 8. Introdueig la teva contrasenya
+### Ya tenim el compte creat de Bitwarden !! 
+
+## 2 Com s'utilitza El Bitwarden? 
