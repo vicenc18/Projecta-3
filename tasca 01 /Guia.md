@@ -14,3 +14,13 @@
 - Escritorio  
 - Móvil  
 - Interfaz web
+## Pas 1 registre i instalacio 
+## Cómo crear una cuenta en Bitwarden
+
+1. Ve a: [https://bitwarden.com](https://bitwarden.com)
+2. Haz clic en **"Get Started"** o **"Empieza ahora"**.
+3. Introduce:
+   - Un **correo electrónico válido**
+   - Tu **nombre**
+   - Una **contraseña maestra** (muy importante, no se puede recuperar si la olvidas)
+4. Confirma tu correo electrónico.
