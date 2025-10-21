@@ -15,6 +15,12 @@
 - Móvil  
 - Interfaz web
 ## 1 registre i instalacio 
+## Com instala Bitwarden 
+1. Ves a: [https://bitwarden.com](https://bitwarden.com)
+2. Fes clic a Descargues
+3. Seleciona el teu nevegador 
+4.   
+   
 ## Com crear un compte a Bitwarden
 
 1. Ves a: [https://bitwarden.com](https://bitwarden.com)
@@ -35,3 +41,5 @@ Al iniciar sessio en Bitearden ens trobem aquest menu d'aqui
 A qui afeguirem un nou elemnt y en sortira el seguent menu on tindrem que inicia sessio y assignar el nom al nou elent, tambe selecionar una carpeta si tenim una 
 
 ![CAPTURA DE MENU DE NOU ELEMENT](IMG/CAPTURAGUIA2.png)
+
+Despues
