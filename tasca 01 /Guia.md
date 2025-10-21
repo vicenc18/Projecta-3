@@ -19,10 +19,14 @@
 1. Ves a: [https://bitwarden.com](https://bitwarden.com)
 2. Fes clic a Descargues
 3. Seleciona el teu nevegador 
-4.   
-   
-## Com crear un compte a Bitwarden
+4. Selecionem el nostre sistema operatiu i la versio de la instalcio que sera estander
 
+5.Executem el arxiu que em descargat
+6. Rmove protecion
+7.Install formy
+8.  iniciar sessio
+## Ya tenim el Bitwarden instalat!!
+## Com crear un compte a Bitwarden!!
 1. Ves a: [https://bitwarden.com](https://bitwarden.com)
 2. Fes clic a **"comença gratuitament"** o **"veure plans"**.
 3. selecioneu el pla que ho veieu combenient yo escollire el personal gratuit 
