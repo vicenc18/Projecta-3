@@ -28,3 +28,6 @@
 ### Ya tenim el compte creat de Bitwarden !! 
 
 ## 2 Com s'utilitza El Bitwarden? 
+Al iniciar sessio en Bitearden ens trobem aquest menu d'aqui 
+
+![captura de menu Bitwarden](IMG/capturaguia1.png)
