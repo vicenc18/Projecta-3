@@ -18,9 +18,10 @@
 ## Com crear un compte a Bitwarden
 
 1. Ves a: [https://bitwarden.com](https://bitwarden.com)
-2. Fes clic a **"Get Started"** o **"Comença ara"**.
-3. Introdueix:
-   - Un **correu electrònic vàlid**
-   - El teu **nom**
-   - Una **contrasenya mestra** (molt important, no es pot recuperar si l’oblides)
+2. Fes clic a **"comença gratuitament"** o **"veure plans"**.
+3. selecioneu el pla que ho veieu combenient yo escollire el personal gratuit 
 4. Confirma el teu correu electrònic.
+5. Premeu el boto de reguistre
+6. Revista el tu correu electronic
+7. Berifiqueu el coru que hos a enviat el Bitwarden
+8. Introdueig la teva contrasenya
