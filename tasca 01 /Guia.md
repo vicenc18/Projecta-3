@@ -20,7 +20,7 @@
 1. Ves a: [https://bitwarden.com](https://bitwarden.com)
 2. Fes clic a **"comença gratuitament"** o **"veure plans"**.
 3. selecioneu el pla que ho veieu combenient yo escollire el personal gratuit 
-4. Confirma el teu correu electrònic.
+4. ingreseu el teu correu electrònic.
 5. Premeu el boto de reguistre
 6. Revista el tu correu electronic
 7. Berifiqueu el coru que hos a enviat el Bitwarden
@@ -31,3 +31,7 @@
 Al iniciar sessio en Bitearden ens trobem aquest menu d'aqui 
 
 ![captura de menu Bitwarden](IMG/capturaguia1.png)
+
+A qui afeguirem un nou elemnt y en sortira el seguent menu on tindrem que inicia sessio y assignar el nom al nou elent, tambe selecionar una carpeta si tenim una 
+
+![CAPTURA DE MENU DE NOU ELEMENT](IMG/CAPTURAGUIA2.png)
