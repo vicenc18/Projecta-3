@@ -48,6 +48,9 @@
 ![captura de menu Bitwarden](IMG/capturaguia1.png)
 
 ### contrasenyes segures 
+Per generar contrasenyes segures haurem de anar al generador de contrasenyes que és toba al aprtat de mostra i generador.
+
+![captura de gestor de contrasenyas](IMG/CAPTURAGUIA2.png)
 
 #### Cradencials 
 per fer les cradencials
