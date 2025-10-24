@@ -39,7 +39,11 @@
 ### Ya tenim el compte creat de Bitwarden !! 
 
 ## 2 Com s'utilitza El Bitwarden? 
-Al iniciar sessio en Bitearden ens trobem aquest menu d'aqui 
+1. **Inicia sessió** amb el teu compte de Bitwarden (correu i contrasenya mestra).  
+2. **Obre la teva caixa forta**: hi veuràs totes les contrasenyes desades.  
+3. **Afegeix noves contrasenyes** manualment (botó “Afegeix element”) o deixa que Bitwarden t’ofereixi desar-les quan iniciïs sessió en una web nova.  
+4. **Autocompleta** les teves credencials en pàgines o aplicacions fent clic a la icona de Bitwarden (🔷) i seleccionant el compte.  
+5. **Sincronitza** els teus dispositius des del menú principal → “Sincronitza” (si no ho fa automàticament).
 
 ![captura de menu Bitwarden](IMG/capturaguia1.png)
 
