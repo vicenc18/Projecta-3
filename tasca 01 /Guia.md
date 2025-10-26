@@ -47,10 +47,22 @@
 
 ![captura de menu Bitwarden](IMG/capturaguia1.png)
 
-### contrasenyes segures 
+## contrasenyes segures 
 Per generar contrasenyes segures haurem de anar al generador de contrasenyes que és toba al aprtat de mostra i generador.
 
 ![captura de gestor de contrasenyas](IMG/CAPTURAGUIA2.png)
 
-#### Cradencials 
-per fer les cradencials
+## Cradencials 
+Fes clic a **“Afegeix ítem”** o **“+ Nou ítem”**.  
+(Sovint es troba a la part superior o en un botó blau).
+
+Completa els camps principals:
+
+- **Nom:** com vols identificar la credencial (per exemple, *Gmail personal*).  
+- **Tipus:** tria **“Inici de sessió”** (*Login*).  
+- **Nom d’usuari:** el teu usuari o correu del lloc web.  
+- **Contrasenya:** pots escriure-la o generar-ne una d’aleatòria amb la icona del generador.  
+- **URL:** l’adreça del lloc web (per exemple, *https://mail.google.com*).  
+- *(Opcional)* **Notes o camps personalitzats** per a informació addicional.
+
+Finalment, **desa els canvis** prement **“Desa”** (*Save*).
