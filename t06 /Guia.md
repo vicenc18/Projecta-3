@@ -54,3 +54,26 @@ A la secció “ANSWER SECTION” apareixen els servidors de noms autoritatius p
 3. ns-130.awsdns-16.com.
 
 4.ns-1689.awsdns-19.co.uk.
+
+## Comando 3:  Consulta Detallada SOA
+**Ejecuta:**  
+```bash
+dig escolapia.cat SOA
+```
+![captura de pantalla de la tarcera comande ](IMG/captura3.png)
+
+## Anàlisi
+| Dada                           | Valor                                                  | Explicació                                                                         |
+| ------------------------------ | ------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| **Correu de l’administrador**  | `root.dns1.nominalia.com.` → `root@dns1.nominalia.com` | El punt (`.`) substitueix el signe `@` dins dels registres DNS.                    |
+| **Número de sèrie del domini** | `1761028965`                                           | Indica la versió actual de la zona DNS; canvia cada cop que es fa una modificació. |
+
+
+
+##Comanda 4: Consulta resolució inversa
+**Ejecuta:**  
+```bash
+dig -x 147.83.2.135
+```
+
+![captura de pantalla de la quar-te comande](IMG/catura4.png)
