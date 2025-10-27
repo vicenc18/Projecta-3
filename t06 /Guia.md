@@ -92,7 +92,7 @@ La consulta revela que la IP 147.83.2.135 pertany a la UPC (Universitat Politèc
 5. www.upc.es
 
 
-##Comprovació de Resolució amb nslookup (Multiplataforma)
+## Comprovació de Resolució amb nslookup (Multiplataforma)
 
 L’eina nslookup es troba a pràcticament a qualsevol sistema operatiu. Es pot usar de forma similar a dig incloent l’argument o si s’executa nslookup sense arguments, entrar en el mode interactiu, us apareix un prompt (>). Serà aquest mode el que explorareu . 
 
