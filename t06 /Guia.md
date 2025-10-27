@@ -113,3 +113,5 @@ Escriure server IP i escriure la IP del primer servidor de noms del domini tecno
 #### Anàlisi
 La primera consulta usa el resolver local y falla (SERVFAIL, no autoritativa).
 La segunda consulta va directamente al servidor autoritativo del dominio, por lo que devuelve una respuesta válida, completa y autoritativa con las IPs reales del dominio tecnocampus.cat.
+
+# fi
