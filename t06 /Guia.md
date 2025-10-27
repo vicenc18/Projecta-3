@@ -105,4 +105,11 @@ type=A i com a domini de consulta tecnocampus.cat
 La resposta és no autoritativa perquè el servidor que respon (127.0.0.53) no és un servidor DNS autoritatiu per al domini tecnocampus.cat, sinó un resolutor local.
 El missatge SERVFAIL indica que aquest resolutor no ha pogut obtenir una resposta vàlida dels servidors autoritatius del domini.
 
-###Comanda 2:
+###Comanda 2: Consultes autoritatives
+Escriure server IP i escriure la IP del primer servidor de noms del domini tecnocampus.cat que s’ha obtingut d’una consulta anterior. A continuació, indiqueu que voleu consultar registres de tipus A i del domini tecnocampus.cat
+
+![captura de pantalla de la segona comande ](IMG/capturans2.png)
+
+#### Anàlisi
+La primera consulta usa el resolver local y falla (SERVFAIL, no autoritativa).
+La segunda consulta va directamente al servidor autoritativo del dominio, por lo que devuelve una respuesta válida, completa y autoritativa con las IPs reales del dominio tecnocampus.cat.
