@@ -95,3 +95,14 @@ La consulta revela que la IP 147.83.2.135 pertany a la UPC (Universitat Politèc
 ##Comprovació de Resolució amb nslookup (Multiplataforma)
 
 L’eina nslookup es troba a pràcticament a qualsevol sistema operatiu. Es pot usar de forma similar a dig incloent l’argument o si s’executa nslookup sense arguments, entrar en el mode interactiu, us apareix un prompt (>). Serà aquest mode el que explorareu . 
+
+###Comanda 1: Consulta Bàsica no Autoritativa
+type=A i com a domini de consulta tecnocampus.cat
+
+![captura de type a](IMG/nslookup1.png)
+
+#### Anàlisi
+La resposta és no autoritativa perquè el servidor que respon (127.0.0.53) no és un servidor DNS autoritatiu per al domini tecnocampus.cat, sinó un resolutor local.
+El missatge SERVFAIL indica que aquest resolutor no ha pogut obtenir una resposta vàlida dels servidors autoritatius del domini.
+
+###Comanda 2:
