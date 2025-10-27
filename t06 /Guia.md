@@ -77,3 +77,19 @@ dig -x 147.83.2.135
 ```
 
 ![captura de pantalla de la quar-te comande](IMG/catura4.png)
+
+## Anàlisi
+La consulta revela que la IP 147.83.2.135 pertany a la UPC (Universitat Politècnica de Catalunya) i està associada a diversos serveis o dominis institucionals com ara:
+
+1. upc.edu
+
+2. barcelonatech.upc.edu
+
+3. upc.cat
+
+4. masters.upc.edu
+
+5. www.upc.es
+
+##Comprovació de Resolució amb nslookup (Multiplataforma)
+L’eina nslookup es troba a pràcticament a qualsevol sistema operatiu. Es pot usar de forma similar a dig incloent l’argument o si s’executa nslookup sense arguments, entrar en el mode interactiu, us apareix un prompt (>). Serà aquest mode el que explorareu . 
