@@ -35,3 +35,22 @@ dig xtec.cat A
    - El servidor que ha respost a la consulta és:
      - `127.0.0.53#53` (Servidor DNS local)
    - Aquesta IP `127.0.0.53` és una adreça local (normalment utilitzada per systemd-resolved en sistemes Linux per a la resolució DNS local), i utilitza el port **53** (el port estàndard per a DNS).
+
+## Comando 2: Consulta de Servidors de Noms (NS)
+**Ejecuta:**  
+```bash
+ dig tecnocampus.cat NS
+
+```
+![captura de pantalla de la segona comande](IMG/captura2.png)
+
+## Anàlisi
+A la secció “ANSWER SECTION” apareixen els servidors de noms autoritatius per al domini tecnocampus.cat. Són aquests quatre:
+
+1. ns-535.awsdns-02.net.
+
+2. ns-1071.awsdns-05.org.
+
+3. ns-130.awsdns-16.com.
+
+4.ns-1689.awsdns-19.co.uk.
