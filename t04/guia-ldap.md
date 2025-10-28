@@ -1,5 +1,4 @@
 
-![logotip de la escola](IMG/logo.png)
 vicenç Obiol Boter
 28/10/2025
 
