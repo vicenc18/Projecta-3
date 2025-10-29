@@ -44,3 +44,6 @@ NAT (Per accés a Internet i descàrrega de paquets).
 Adaptador point nomes en anfritio (Per a comunicació privada amb el Client virtual  i la màquina física).
 
 ![Adaptador point nomes en anfritio](IMG/nomesenanfritio.png)
+
+
+ 
