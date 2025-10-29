@@ -34,6 +34,13 @@ sudo hostname -f
 ![hostname -f](IMG/hostname-f.png)
 
 ##3. Interfície de Xarxa Pública
+
 NAT (Per accés a Internet i descàrrega de paquets).
 
 ![captura de pantalla del adaptador point ](IMG/capturaxarxanat.png)
+
+##3.1 Interfície de Xarxa Privada.
+
+Adaptador point nomes en anfritio (Per a comunicació privada amb el Client virtual  i la màquina física).
+
+![Adaptador point nomes en anfritio](IMG/nomesenanfritio.png)
