@@ -1,5 +1,4 @@
 
-![logo de la escola](IMG/logopia.png)
 
 # T06: Fundamentos del servicio DNS
 
