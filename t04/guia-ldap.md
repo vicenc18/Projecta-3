@@ -23,3 +23,8 @@ guardem amb control+o i sortim amb control+x
 
 ![captura de el hostname](IMG/capturahostname.png)
 
+Per asegurarnos que esta be farem:
+```bash
+sudo hostname -f
+```
+![hostname -f](IMG/hostname-f.png)
