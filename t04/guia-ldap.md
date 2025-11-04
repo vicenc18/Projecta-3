@@ -54,5 +54,10 @@ sudo apt install sldap ldap-untils -y
 ```
 
 ![captura intalar ldap](IMG/sldap.png)
+1.2 verificar amb slapcat
+ ```bash
+sudo slapcat
+```
 
+![captura slapcat](IMG/capturaldap2.png)
  
