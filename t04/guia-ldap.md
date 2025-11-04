@@ -45,5 +45,14 @@ Adaptador point nomes en anfritio (Per a comunicació privada amb el Client virt
 
 ![Adaptador point nomes en anfritio](IMG/nomesenanfritio.png)
 
+# Instalació i configuracio ldap
+
+## Instalació 
+1. Per Instal-lar aquest programa haurem de executar la seguent comande
+ ```bash
+sudo apt install sldap ldap-untils -y
+```
+
+![captura intalar ldap](t04/IMG/capturainstal·larlda.png)
 
  
