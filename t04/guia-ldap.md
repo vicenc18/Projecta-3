@@ -53,6 +53,6 @@ Adaptador point nomes en anfritio (Per a comunicació privada amb el Client virt
 sudo apt install sldap ldap-untils -y
 ```
 
-![captura intalar ldap](IMG/capturainstal·larlda.png)
+![captura intalar ldap](IMG/sldap.png)
 
  
