@@ -91,3 +91,10 @@ sudo slapcat
 ```
 ![captura slapcat](IMG/capturaldap2.png)
  
+# creacio de usuaris i grubs
+
+1 En primer lloc haurem de fer els aerchius primer, important fer els archius en ldif 
+```bash
+sudo nano /etc/OU_users.ldif
+sudo nano /etc/OU_groups.ldif
+```
