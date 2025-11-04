@@ -76,4 +76,18 @@ sudo slapcat
 
 ![captura de la organitzacio](IMG/nombreorganizazion.png)
 
+![yes](IMG/yes.png)
+
 4 A les saguent pantalles aurem de posar: yes yes 
+
+![yes](IMG/yes.png)
+
+![yes](IMG/yes2.png)
+
+5 Per confirmar que tot esta correcte ferem un slapcat
+
+ ```bash
+sudo slapcat
+```
+![captura slapcat](IMG/capturaldap2.png)
+ 
