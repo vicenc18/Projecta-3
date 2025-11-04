@@ -54,10 +54,26 @@ sudo apt install sldap ldap-untils -y
 ```
 
 ![captura intalar ldap](IMG/sldap.png)
+
 1.2 verificar amb slapcat
+
  ```bash
 sudo slapcat
 ```
 
 ![captura slapcat](IMG/capturaldap2.png)
  
+## configuracio 
+1 Haurem de afeguir una contrasenya que sera p@ssw0rd
+
+![captura contraseña](IMG/capturacontraseña.png)
+
+2.Posar el nom del domini dns: el enl nostre poserem innovatech18
+
+![captura del domini](IMG/capturadominidnd.png)
+
+3 Nom de la organitzacio: sera el mateix que el domini 
+
+![captura de la organitzacio](IMG/nombreorganizazion.png)
+
+4 A les saguent pantalles aurem de posar: yes yes 
