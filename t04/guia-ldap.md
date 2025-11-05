@@ -99,6 +99,21 @@ sudo nano /etc/OU_users.ldif
 sudo nano /etc/OU_groups.ldif
 ```
 
+
+
 ![captura de pantalla del archiu](IMG/usuaris.png)
 
 ![captura de pantalla del archiu](IMG/groups.png)
+
+# Gestió i Administració (LAM)
+1. instalacio de LDAP Acoount manager
+   Per instalar el  LDAP Acoount manager haurem de executar:
+ ```bash
+sudo apt install ldap-account-manager -y
+```
+
+![captura de pantalla](IMG/manager.png)    
+
+2 Connectar a LAM des de la màquina física utilitzant l'adreça IP de la interfície Host-Only.
+
+![lam]()
