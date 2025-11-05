@@ -98,3 +98,7 @@ sudo slapcat
 sudo nano /etc/OU_users.ldif
 sudo nano /etc/OU_groups.ldif
 ```
+
+![captura de pantalla del archiu](IMG/usuaris.png)
+
+![captura de pantalla del archiu](IMG/groups.png)
