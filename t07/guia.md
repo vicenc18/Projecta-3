@@ -21,3 +21,11 @@ Per copmprobar que ho tenom ve domes executem
 sudo hostname -f
 ```
 ![hostname -f](IMG/Hostname.png)
+
+### 2 configuracio de la xarxa 
+Lo primer sera tenir dos port activat en la MV un en NAT i l'altra en PONT
+
+
+![nat](IMG/nat.png)
+
+![pont](IMG/PONT.png)
