@@ -66,3 +66,12 @@ Per instalar el servei haurem de executar la seguent comande:
 sudo apt install bind9 -y
 ```
 ![bind9](IMG/bind9.png)
+
+Per ferificar que tot estigui correcte haurem de fer un status:
+
+```bash
+sudo systemctl status bind9
+```
+
+
+###  Bind9 configuracio 
