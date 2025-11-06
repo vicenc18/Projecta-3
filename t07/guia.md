@@ -13,4 +13,11 @@ sudo nano /etc/hosts
 ```
 ![captura de hosts](IMG/hosts.png)
 
-El nom del domini es la linea que esta avaig de localhost, en el nostre cas posarem server.digicore-18.test server 
+El nom del domini es la linea que esta avaig de localhost, en el nostre cas posarem server.digicore-18.test server.
+Hara haurem de sortir del archiu pro avans guardarem amb control + o i sortim amb control+x
+
+Per copmprobar que ho tenom ve domes executem
+``` bash
+sudo hostname -f
+```
+![hostname -f](IMG/Hostname.png)
