@@ -73,5 +73,6 @@ Per ferificar que tot estigui correcte haurem de fer un status:
 sudo systemctl status bind9
 ```
 
+![status](IMG/status.png)
 
 ###  Bind9 configuracio 
