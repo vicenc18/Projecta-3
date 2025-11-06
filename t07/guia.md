@@ -29,3 +29,38 @@ Lo primer sera tenir dos port activat en la MV un en NAT i l'altra en PONT
 ![nat](IMG/nat.png)
 
 ![pont](IMG/PONT.png)
+
+Ara configurarem Adreça estatica, com em fet avans haurem de entrar al archiu amb:
+``` bash
+sudo nao /etc/netplan/50-cloud-init.yaml
+```
+Quan ja estiguem a dintre del fitcher el configurem:
+
+network: Configuració principal.
+version: 2 → Versió del format.
+ethernets: Configuració per a interfícies Ethernet.
+
+enp0s3: Nom de la interfície.
+
+dhcp4: no → DHCP desactivat (IP manual).
+
+addresses: IP assignada manualment 192.168.2.18/24.
+
+routes: Ruta per defecte via 192.168.2.254.
+
+nameservers: DNS configurat amb 8.8.8.8 (Google DNS).
+
+![ip](IMG/ip.png)
+
+Despues sortim amb control + x, i l'apliquem amb:
+``` bash
+sudo netplan apply
+```
+
+![apply](IMG/apply.png)
+
+### instalacio del bind9 -y
+Per instalar el servei haurem de executar la seguent comande:
+
+```bash
+sudo apt install bind9 -y
