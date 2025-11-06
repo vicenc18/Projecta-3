@@ -64,3 +64,5 @@ Per instalar el servei haurem de executar la seguent comande:
 
 ```bash
 sudo apt install bind9 -y
+```
+![bind9](IMG/bind9.png)
