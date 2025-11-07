@@ -116,4 +116,5 @@ sudo apt install ldap-account-manager -y
 
 2 Connectar a LAM des de la màquina física utilitzant l'adreça IP de la interfície Host-Only.
 
-![lam]()
+![lam](IMG/lamconfi.png)
+
