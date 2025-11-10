@@ -116,11 +116,17 @@ sudo apt install ldap-account-manager -y
 
 2 Connectar a LAM des de la màquina física utilitzant l'adreça IP de la interfície Host-Only.
 
+![contraseña](IMG/lamcontraseña.png)
+
 ![lam](IMG/lamconfi.png)
 
 Ara configurarem el lam, y lo primer sera configurar el perfil.
 
 ![imtege de perfil](IMG/editperfil.png)
+
+Aqui haurem de configurar el domini com es mostra a la seguent imatge:
+
+![ imatge del domini](IMG/dominilam.png)
 
 
 
