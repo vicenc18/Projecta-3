@@ -118,3 +118,9 @@ sudo apt install ldap-account-manager -y
 
 ![lam](IMG/lamconfi.png)
 
+Ara configurarem el lam, y lo primer sera configurar el perfil.
+
+![imtege de perfil](IMG/editperfil.png)
+
+
+
