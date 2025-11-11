@@ -154,3 +154,13 @@ despues de posar el nom haurem de posar una contrasenya el usuari.
 Procedim a repetir el proces pro amb mareger01 
 
 ![usuaris](IMG/ususariss.png)
+
+## client (zorin)
+### Configuracio del client 
+La maquina del client haure de tenir un sol adaptador, que estara en xarxa Nat
+
+![configuracio del client](IMG/xarxanat.png)
+
+Haraconfigurarem el host 
+
+![host]()
