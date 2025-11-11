@@ -141,7 +141,9 @@ Começem amb la creacio dels grubs que es diran Manager i tech
 
 ![creacio dels grubps](IMG/creaciogrubs.png)
 
+![grups creats](IMG/grupslam.png)
 
+Ara aurem de crear el usuaris i asignarols als grubs 
 
 
 
