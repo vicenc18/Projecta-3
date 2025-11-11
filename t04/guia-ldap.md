@@ -134,4 +134,13 @@ Despues configurarem la configuracio d'eines:
 
 ![captura de ajust d'eines](IMG/capturadeconfiguraciodeeines.png)
 
+## creacio de usuaris i grubs
+Hara crearem dos grubs i dos usuaris amb el entorn grafic:
+
+Começem amb la creacio dels grubs que es diran Manager i tech
+
+![creacio dels grubps](IMG/creaciogrubs.png)
+
+
+
 
