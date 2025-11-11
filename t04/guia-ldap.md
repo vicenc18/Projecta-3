@@ -145,6 +145,12 @@ Começem amb la creacio dels grubs que es diran Manager i tech
 
 Ara aurem de crear el usuaris i asignarols als grubs 
 
+![tech01](IMG/tech01.png)
 
+despues de posar el nom haurem de posar una contrasenya el usuari.
 
+![caprtura de pantalla de contrasenya de usuari](IMG/tech01.png)
 
+Procedim a repetir el proces pro amb mareger01 
+
+![usuaris](IMG/ususariss.png)
