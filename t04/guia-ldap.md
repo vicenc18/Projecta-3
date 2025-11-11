@@ -163,4 +163,6 @@ La maquina del client haure de tenir un sol adaptador, que estara en xarxa Nat
 
 Haraconfigurarem el host 
 
-![host]()
+![host](IMG/HOSTSZORIN.PNG)
+
+![host](IMG/HOST2.PNG)
