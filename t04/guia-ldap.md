@@ -144,3 +144,5 @@ Começem amb la creacio dels grubs que es diran Manager i tech
 
 
 
+
+
