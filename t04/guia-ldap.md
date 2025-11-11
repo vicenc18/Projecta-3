@@ -124,9 +124,14 @@ Ara configurarem el lam, y lo primer sera configurar el perfil.
 
 ![imtege de perfil](IMG/editperfil.png)
 
+![captura de pantalla](IMG/imatgedominilam.png)
+
 Aqui haurem de configurar el domini com es mostra a la seguent imatge:
 
 ![ imatge del domini](IMG/dominilam.png)
 
+Despues configurarem la configuracio d'eines:
+
+![captura de ajust d'eines](IMG/capturadeconfiguraciodeeines.png)
 
 
