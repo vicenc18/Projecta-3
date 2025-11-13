@@ -2,11 +2,11 @@
 vicenç Obiol Boter
 28/10/2025
 
-# Guia de instalació y utilització de Ldap 
+# Guia de instal·lació y utilització de Ldap 
 
 ![a](IMG/simpleid.png)
 
-## 1.Actualizar la maquina 
+## 1.Actualizar la màquina 
 
 ## 1. Actualitzar la màquina  
 
@@ -43,19 +43,19 @@ NAT (Per accés a Internet i descàrrega de paquets).
 
 ##3.1 Interfície de Xarxa Privada.
 
-Adaptador point nomes en anfritio (Per a comunicació privada amb el Client virtual  i la màquina física).
+Adaptador point només en anfritio (Per a comunicació privada amb el Client virtual  i la màquina física).
 
-![Adaptador point nomes en anfritio](IMG/nomesenanfritio.png)
+![Adaptador point només en anfritio](IMG/nomesenanfritio.png)
 
-# Instalació i configuracio ldap
+# Instal·lació i configuració ldap
 
-## Instalació 
-1. Per Instal-lar aquest programa haurem de executar la seguent comande
+## Instal·lació 
+1. Per Instal-lar aquest programa haurem d'executar la següent comande
  ```bash
 sudo apt install sldap ldap-untils -y
 ```
 
-![captura intalar ldap](IMG/sldap.png)
+![captura intal·lar ldap](IMG/sldap.png)
 
 1.2 verificar amb slapcat
 
@@ -66,7 +66,7 @@ sudo slapcat
 ![captura slapcat](IMG/capturaldap2.png)
  
 ## configuracio 
-1 Haurem de afeguir una contrasenya que sera p@ssw0rd
+1 Haurem d'afeguir una contrasenya que serà p@ssw0rd
 
 ![captura contraseña](IMG/capturacontraseña.png)
 
@@ -74,28 +74,28 @@ sudo slapcat
 
 ![captura del domini](IMG/capturadominidnd.png)
 
-3 Nom de la organitzacio: sera el mateix que el domini 
+3 Nom de la organització: sera el mateix que el domini 
 
 ![captura de la organitzacio](IMG/nombreorganizazion.png)
 
 ![yes](IMG/yes.png)
 
-4 A les saguent pantalles aurem de posar: yes yes 
+4 A les sagüent pantalles haurem de posar: yes yes 
 
 ![yes](IMG/yes.png)
 
 ![yes](IMG/yes2.png)
 
-5 Per confirmar que tot esta correcte ferem un slapcat
+5 Per confirmar que tot està correcte ferem un slapcat
 
  ```bash
 sudo slapcat
 ```
 ![captura slapcat](IMG/capturaldap2.png)
  
-# creacio de usuaris i grubs
+# creació d'usuaris i grubs
 
-1 En primer lloc haurem de fer els aerchius primer, important fer els archius en ldif 
+1 En primer lloc haurem de fer els archius primer, important fer els archius en ldif 
 ```bash
 sudo nano /etc/OU_users.ldif
 sudo nano /etc/OU_groups.ldif
@@ -108,7 +108,7 @@ sudo nano /etc/OU_groups.ldif
 ![captura de pantalla del archiu](IMG/groups.png)
 
 # Gestió i Administració (LAM)
-1. instalacio de LDAP Acoount manager
+1. instalació de LDAP Acoount manager
    Per instalar el  LDAP Acoount manager haurem de executar:
  ```bash
 sudo apt install ldap-account-manager -y
@@ -122,49 +122,49 @@ sudo apt install ldap-account-manager -y
 
 ![lam](IMG/lamconfi.png)
 
-Ara configurarem el lam, y lo primer sera configurar el perfil.
+Ara configurarem el lam, y lo primer serà configurar el perfil.
 
 ![imtege de perfil](IMG/editperfil.png)
 
 ![captura de pantalla](IMG/imatgedominilam.png)
 
-Aqui haurem de configurar el domini com es mostra a la seguent imatge:
+Aquí haurem de configurar el domini com es mostra a la següent imatge:
 
 ![ imatge del domini](IMG/dominilam.png)
 
-Despues configurarem la configuracio d'eines:
+Després configurarem la configuració d'eines:
 
 ![captura de ajust d'eines](IMG/capturadeconfiguraciodeeines.png)
 
-## creacio de usuaris i grubs
-Hara crearem dos grubs i dos usuaris amb el entorn grafic:
+## creació d'usuaris i grubs
+Ara crearem dos grubs i dos usuaris amb el entorn gráfic:
 
-Começem amb la creacio dels grubs que es diran Manager i tech
+Comencem amb la creació dels grubs que es diran Manager i tech
 
-![creacio dels grubps](IMG/creaciogrubs.png)
+![creació dels grubps](IMG/creaciogrubs.png)
 
 ![grups creats](IMG/grupslam.png)
 
-Ara aurem de crear el usuaris i asignarols als grubs 
+Ara haurem de crear el usuaris i asignarols als grubs 
 
 ![tech01](IMG/tech01.png)
 
-despues de posar el nom haurem de posar una contrasenya el usuari.
+després de posar el nom haurem de posar una contrasenya al usuari.
 
 ![caprtura de pantalla de contrasenya de usuari](IMG/tech01.png)
 
-Procedim a repetir el proces pro amb mareger01 
+Procedim a repetir el procés pro amb mareger01 
 
 ![usuaris](IMG/ususariss.png)
 
-i afeigim  una contrasenña en els usuaris
+i afeigim  una contrasenya en els usuaris
 
 
 ## client (zorin)
-### Configuracio del client 
-La maquina del client haure de tenir un sol adaptador, que estara en xarxa Nat
+### Configuració del client 
+La màquina del client haurà de tenir un sol adaptador, que estarà en xarxa Nat
 
-![configuracio del client](IMG/xarxanat.png)
+![configuració del client](IMG/xarxanat.png)
 
 Haraconfigurarem el host 
 
@@ -172,43 +172,43 @@ Haraconfigurarem el host
 
 ![host](IMG/HOST2.PNG)
 
-hara instalarem el ldap amb la seguent comande 
+Ara instal·larem el ldap amb la següent comanda
 ```bash
 sudo apt install libnss-ldap libpam-ldap ldap-utils nscd -y
 ```
-![instalacio del l'dap](IMG/iclientldap.png)
+![install3ació del l'dap](IMG/iclientldap.png)
 
-despues de instalalo l'haurem de configurarlo,
+després de instal·lar-lo haurem de configurar-lo,
 
-![imatge de la configuracio del l'dap](IMG/conigldap.png)
+![imatge de la configuració del l'dap](IMG/conigldap.png)
 
-Despues haurem de posar la contrasenya del administrador, que en el nostre cas sera p@ssw0rd
+Després haurem de posar la contrasenya del administrador, que en el nostre cas serà p@ssw0rd
 
-![contrasenya del administrador](IMG/cna.png)
+![contrasenya de l'administrador](IMG/cna.png)
 
-Be hara haurem de configurar uns archius, el primer sera:
+Ara haurem de configurar uns archius, el primer serà:
 
 ```bash
 /etc/pam.d/common-session
 ```
-ha qui haurem de escriure la ultimia linea que surt en la seguent captura:
+Aquí haurem de escriure l'última línea que surt en la següent captura:
 
 ![captura de pantalla de comoon session](IMG/sessioncommo.png)
 
-El seguent erxiu que executarem sera  el mateix pro cambiant ssesion per pasword:
-Aqui lo qe farem sera eliminar la quarta linea comencant per dalt
+El segúent arxiu que executarem serà  el mateix però canviant ssesion per pasword:
+Aquí el qe farem serà eliminar la quarta línea comensant per dalt
 
 ![archiu](IMG/passwordldap.png)
 
-Avans de de editar el ultim archiu farem un geten  passwd | ail Per que tot estgui correcte 
+Avans d'editar l'últim archiu farem un geten  passwd | ail Per que tot estgui correcte 
 ```bash
 sudo geten passwd | ail
 ```
 ![gten](IMG/geten.png)
 
-Quan ja em comprobat que tot esta correcta, anem a modificar el ultim arxiu (nsswitch.conf) que serveix per que podem iniciar ssesio amb els usuaris creats amb el entorn grafic
+Quan ja hem comprobat que tot esta correcte, anem a modificar l'últim arxiu (nsswitch.conf) que serveix per que podem iniciar sesió amb els usuaris creats amb el entorn gràfic
 
 ![ultim](IMG/ultim.png)
 
-si tot esta correcte podriem entrar amb el usuaris crats
+si tot està correcte podriem entrar amb el usuaris creats
 #fi
