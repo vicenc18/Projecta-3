@@ -8,7 +8,9 @@ vicenç Obiol Boter
 
 ## 1.Actualizar la maquina 
 
-Avans de tot  Haurem de posar la maquina al dia.
+## 1. Actualitzar la màquina  
+
+Abans de tot haurem de posar la màquina al dia.  
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
@@ -155,6 +157,9 @@ Procedim a repetir el proces pro amb mareger01
 
 ![usuaris](IMG/ususariss.png)
 
+i afeigim  una contrasenña en els usuaris
+
+
 ## client (zorin)
 ### Configuracio del client 
 La maquina del client haure de tenir un sol adaptador, que estara en xarxa Nat
@@ -166,3 +171,17 @@ Haraconfigurarem el host
 ![host](IMG/HOSTSZORIN.PNG)
 
 ![host](IMG/HOST2.PNG)
+
+hara instalarem el ldap amb la seguent comande 
+```bash
+sudo apt install libnss-ldap libpam-ldap ldap-utils nscd -y
+```
+![instalacio del l'dap](IMG/iclientldap.png)
+
+despues de instalalo l'haurem de configurarlo,
+
+![imatge de la configuracio del l'dap](IMG/conigldap.png)
+
+Despues haurem de posar la contrasenya del administrador
+
+![contrasenya del administrador](IMG/cna.png)
