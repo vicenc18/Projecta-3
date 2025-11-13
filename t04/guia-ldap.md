@@ -182,6 +182,33 @@ despues de instalalo l'haurem de configurarlo,
 
 ![imatge de la configuracio del l'dap](IMG/conigldap.png)
 
-Despues haurem de posar la contrasenya del administrador
+Despues haurem de posar la contrasenya del administrador, que en el nostre cas sera p@ssw0rd
 
 ![contrasenya del administrador](IMG/cna.png)
+
+Be hara haurem de configurar uns archius, el primer sera:
+
+```bash
+/etc/pam.d/common-session
+```
+ha qui haurem de escriure la ultimia linea que surt en la seguent captura:
+
+![captura de pantalla de comoon session](IMG/sessioncommo.png)
+
+El seguent erxiu que executarem sera  el mateix pro cambiant ssesion per pasword:
+Aqui lo qe farem sera eliminar la quarta linea comencant per dalt
+
+![archiu](IMG/passwordldap.png)
+
+Avans de de editar el ultim archiu farem un geten  passwd | ail Per que tot estgui correcte 
+```bash
+sudo geten passwd | ail
+```
+![gten](IMG/geten.png)
+
+Quan ja em comprobat que tot esta correcta, anem a modificar el ultim arxiu (nsswitch.conf) que serveix per que podem iniciar ssesio amb els usuaris creats amb el entorn grafic
+
+![ultim](IMG/ultim.png)
+
+si tot esta correcte podriem entrar amb el usuaris crats
+#fi
