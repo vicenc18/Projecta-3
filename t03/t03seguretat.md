@@ -18,7 +18,7 @@ Aquesta imatge mostra els discs existents assignats al controlador SATA:
 
 Assegura't que la mida és exactament **10 GB**.
 
-![Creació VDI 10GB](t03/IMG/10gb.png)
+![Creació VDI 10GB](IMG/10gb.png)
 
 ---
 
