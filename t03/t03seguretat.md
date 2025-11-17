@@ -81,6 +81,8 @@ sudo mount /dev/vg_dades/lv_dades /mnt/dades
 
 ## 📌 4. Alta Disponibilitat: Mirall LVM
 
+!
+
 ```bash
 sudo lvconvert --type mirror -m1 vg_dades/lv_dades
 ```
