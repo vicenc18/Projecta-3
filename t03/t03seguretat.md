@@ -10,7 +10,7 @@ Aquesta guia està totalment adaptada al format **Markdown**.
 
 Aquesta imatge mostra els discs existents assignats al controlador SATA:
 
-![Controlador SATA](IMG/sata.png)
+![Controlador SATA](IMG/volgrup3.png)
 
 ---
 
