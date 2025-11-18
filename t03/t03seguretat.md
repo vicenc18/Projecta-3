@@ -52,7 +52,7 @@ Acció important: Cal assignar el tipus 8e (Linux LVM).
 
 ### **3.2. Crear volums físics (PV)**
 
-![volgrub](img/pvcrate.png)
+![volgrub](IMG/pvcrate.png)
 bash
 sudo pvcreate /dev/sdb1 /dev/sdc1
 Funció: Crear Physical Volumes (PV), és a dir, marcar les particions com a compatibles amb LVM.
