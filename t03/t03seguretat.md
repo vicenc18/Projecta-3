@@ -273,11 +273,11 @@ Crear un espai amb **resiliència de paritat** per mantenir les dades amb menys 
 ### **Procediment**
 Discos que utilitzarem:
 
-<img src="img/AP.png" width="600">
+<img src="IMG/AP.png" width="600">
 
 #### 1. Igual que abans anem a l'apartat de **"Espacios de almacenamiento"**, creem un nou grup i ara seleccionarem 3 discos.
 
-<img src="img/BP.png" width="600">
+<img src="IMG/BP.png" width="600">
 
 #### 2. Configurem el grup de la següent manera:  
    - Tipus: `Paritat`  
@@ -286,46 +286,46 @@ Discos que utilitzarem:
 
 Com a de quedar: 
 
-<img src="img/CP.png" width="600">
+<img src="IMG/CP.png" width="600">
 
 Un cop tenim a configuracio correcta creem el grup.
 
-<img src="img/DP.png" width="600">
+<img src="IMG/DP.png" width="600">
 
 #### 3. Copiar fitxers de prova a la unitat.
 
-<img src="img/EP.png" width="600">
+<img src="IMG/EP.png" width="600">
 
 #### 4. Deshabilitar un disc per simular una fallada, per aixo tanquem la maquina i eliminem un dels discos del pool.
 
-<img src="img/FP.png" width="600">
+<img src="IMG/FP.png" width="600">
 
-<img src="img/HP.png" width="600">
+<img src="IMG/HP.png" width="600">
 
 
 #### 6. Verificar que les dades segueixen accessibles tot i la fallada.
 
-<img src="img/GP.png" width="600">
+<img src="IMG/GP.png" width="600">
 
 #### 8. Reactivar el disc i comprovar la reconstrucció. Tanquem la maquina, afegim un nou disc al pool, obrim la maquina, anem a l'apartat **"Espacios de almacenamiento"**, al grup de paritat i seleccionem l'opcio de afegir un disc al grup.
 
-<img src="img/IP.png" width="600">
+<img src="IMG/IP.png" width="600">
 
-<img src="img/JP.png" width="600">
+<img src="IMG/JP.png" width="600">
 
 - En aquesta captura es pot veure com el disc que acabem d'afegir ja s'esta utilitzant, recronstuint la informació que tenia el disc de la fallada:
 
-<img src="img/KP.png" width="600">
+<img src="IMG/KP.png" width="600">
 
 - Eliminem el disc amb la fallada:
 
-<img src="img/LP.png" width="600">
+<img src="IMG/LP.png" width="600">
 
-<img src="img/MP.png" width="600">
+<img src="IMG/MP.png" width="600">
 
 - I comprovem que la informació esta correcta:
 
-<img src="img/NP.png" width="600">
+<img src="IMG/NP.png" width="600">
 
 ---
 
@@ -337,11 +337,11 @@ Configurar un espai amb **mirall triple** per protegir les dades davant la falla
 ### **Procediment**
 Discos que utilitzarem:
 
-<img src="img/AT.png" width="600">
+<img src="IMG/AT.png" width="600">
 
 #### 1. Creem un nou grup en el qual seleccionarem 5 discos.
 
-<img src="img/BT.png" width="600">
+<img src="IMG/BT.png" width="600">
 
 #### 3. La configurem de la seguent manera:  
    - Tipus: `Mirall de tres vies (Three-way mirror)`  
@@ -349,31 +349,31 @@ Discos que utilitzarem:
    - Lletra d’unitat: `E:`
 Com a de quedar:
 
-<img src="img/CT.png" width="600">
+<img src="IMG/CT.png" width="600">
 
-<img src="img/DT.png" width="600">
+<img src="IMG/DT.png" width="600">
 
 #### 2. Copiar fitxers de prova a la unitat.
 
-<img src="img/ET.png" width="600">
+<img src="IMG/ET.png" width="600">
   
 #### 4. Deshabilitar un disc per simular una fallada (aquest podria soportar fins a dues fallades de disc). El proces es el mateix que els dos anteriors, apagar maquina, eliminem disc del pool.
 
-<img src="img/GT.png" width="600">
+<img src="IMG/GT.png" width="600">
 
 #### 6. Verificar que els fitxers continuen accessibles.
 
-<img src="img/FT.png" width="600">
+<img src="IMG/FT.png" width="600">
 
 #### 8. Reactivar els discos i comprovar la reconstrucció. apaguem la maquina, afegim un disc nou al pool, obrim la maquina, anem al grup i afegim el disc al grup.
 
-<img src="img/HT.png" width="600">
+<img src="IMG/HT.png" width="600">
 
-<img src="img/IT.png" width="600">
+<img src="IMG/IT.png" width="600">
 
-<img src="img/JT.png" width="600">
+<img src="IMG/JT.png" width="600">
 
-<img src="img/KT.png" width="600">
+<img src="IMG/KT.png" width="600">
 
 ---
 
