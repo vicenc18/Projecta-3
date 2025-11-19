@@ -147,25 +147,25 @@ Crear un *Storage Pool* utilitzant tres discos virtuals de 10 GB de manera inici
 ### **Procediment Creació Maquina**
 1. Crear la maquina amb **4 GB de RAM** i **2 processadors**.
 
-<img src="img/hardware.png" width="600">
+<img src="IMG/hardware.png" width="600">
 
 3. Anem a l'apartat **d'Emmagatzematge** i a l'opcio de **Controlador: SATA** seleccionem l'opcio de **Afegeix disc dur** hi ha **Crea**.
 
-<img src="img/controladorSATA.png" width="600">
+<img src="IMG/controladorSATA.png" width="600">
 
-<img src="img/creadiscdur.png" width="600">
+<img src="IMG/creadiscdur.png" width="600">
  
 4. Canviem el nom a disc01 o similar i assignem **10 GB d'espai**.
 
-<img src="img/espaidiscos.png" width="600">
+<img src="IMG/espaidiscos.png" width="600">
    
 6. Creem i l'escollim. I repetim aquest proces dos cops mes per tenir el pool inicial.
 
-<img src="img/pool.png" width="600">
+<img src="IMG/pool.png" width="600">
 
 ### **Captura de pantalla resultat final**
 
-<img src="img/maquina3.png" width="600">
+<img src="IMG/maquina3.png" width="600">
 
 ### **Procediment Creació d'un Grup**
 
@@ -174,19 +174,19 @@ Apendre a com crear un grup d'emmagatzematge
 
 1. Entrem a la maquina, obrim **Tauler de control → Sistema i seguretat → Espais d’emmagatzematge**.
 
-<img src="img/taulerdecontrol.png" width="600">
+<img src="IMG/taulerdecontrol.png" width="600">
 
-<img src="img/sistemaiseguredad.png" width="600">
+<img src="IMG/sistemaiseguredad.png" width="600">
 
-<img src="img/configuracioalmacenamiento.png" width="600">
+<img src="IMG/configuracioalmacenamiento.png" width="600">
 
 2. Seleccionem **Crea un grup nou i un espai d’emmagatzematge nou**.
 
-<img src="img/creargrup.png" width="600">
+<img src="IMG/creargrup.png" width="600">
 
 3. Seleccionar els discos necesaris de **10 GB cadascun** i creem el grup.
 
-<img src="img/selecciomirroging.png" width="600">
+<img src="IMG/selecciomirroging.png" width="600">
 
 ---
 
@@ -198,20 +198,20 @@ Configurar un espai amb **mirall doble** per garantir la disponibilitat de les d
 ### **Procediment**
 Discos necesaris:
 
-<img src="img/A.png" width="600">
+<img src="IMG/A.png" width="600">
 
 
 #### 1. Entrem al **"Administrador de discos"** e inicialitzarem un disc seleccionan els 3 discos que hem creat anteriorment utilitzant l'estil de particio **GPT**.
 
-<img src="img/B.png" width="600">
+<img src="IMG/B.png" width="600">
 
 #### 2. Ara entrem a **"Espacios de almacenamiento"** i crearem un nou grup i espai d'emmagetzematge
 
-<img src="img/C.png" width="600">
+<img src="IMG/C.png" width="600">
 
 #### 3. Seleccionem dos discos i creem el grup.
 
-<img src="img/D.png" width="600">
+<img src="IMG/D.png" width="600">
 
 #### 4. Configurar de la següent manera:
    - Tipus de resiliència: `Mirall doble (Reflejo doble)`  
@@ -220,47 +220,47 @@ Discos necesaris:
 
 Com a de quedar:
 
-<img src="img/E.png" width="600">
+<img src="IMG/E.png" width="600">
 
 Un cop el tinguem configurat creem el grup.
 
-<img src="img/F.png" width="600">
+<img src="IMG/F.png" width="600">
 
 
 #### 5. Copiar alguns fitxers de prova a la unitat `E:`.
 
-<img src="img/G.png" width="600">
+<img src="IMG/G.png" width="600">
 
 #### 6. Deshabilitar un dels discos del pool per **simular una fallada**, per aixo tancarem la maquina i eliminarem un disc del pool
 
-<img src="img/H.png" width="600">
+<img src="IMG/H.png" width="600">
 
-<img src="img/J.png" width="600">
+<img src="IMG/J.png" width="600">
 
 
 #### 8. Verifiquem que els fitxers continuen accessibles.
 
-<img src="img/I.png" width="600">
+<img src="IMG/I.png" width="600">
 
 #### 10. Tornar a habilitar el disc i comprovar la **reconstrucció automàtica**, per aixo anem a **"Espacios de almacenamiento"**, anem al grup i seleccionem l'opcio de afegir un disc al grup.
 
 
-<img src="img/K.i.png" width="600">
+<img src="IMG/K.i.png" width="600">
 
 
-<img src="img/L.png" width="600">
+<img src="IMG/L.png" width="600">
 
 - Eliminem del grup el disc que te la fallada, per aixo tindrem que esperar un rato fins que hens sorti l'opcio de **"Quitar"**.
 
-<img src="img/M.png" width="600">
+<img src="IMG/M.png" width="600">
 
-<img src="img/N.png" width="600">
+<img src="IMG/N.png" width="600">
 
-<img src="img/O.png" width="600">
+<img src="IMG/O.png" width="600">
 
 - I finalment comprovem que la recontruccio s'aixi fet correctament, que es pot veure que s'ha fet correctament, ja que al afegir el tercer disc aquest a copiat tot el fitxers que tenia el primer, utilitzant el mateix espai de disc que el primer.
 
-<img src="img/P.png" width="600">
+<img src="IMG/P.png" width="600">
 
 
 ---
